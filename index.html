@@ -1,0 +1,662 @@
+<!--! 
+ * GooBlog (https://shafygunawan.github.io/gooblog) 
+ * Copyright 2021 Shafy Gunawan (https://www.linkedin.com/in/shafygunawan/) 
+ * Licensed under MIT (https://github.com/shafygunawan/gooblog/blob/main/LICENSE) 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GooBlog</title>
+    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body class="page">
+    <header class="page__navbar navbar">
+      <h1 class="navbar__logo logo">
+        <a href="#" class="logo__inner">
+          <img src="./images/logo.png" alt="" class="logo__image" />
+          GooBlog
+        </a>
+      </h1>
+      <button class="navbar__toggler">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="navbar__inner navbar__inner_hide">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link navbar__link_active">Home</a>
+          </li>
+          <li class="navbar__item"><a href="#" class="navbar__link">CSS</a></li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Javascript</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Design</a>
+          </li>
+          <li class="navbar__item dropdown">
+            <button class="navbar__link dropdown__button">
+              Other <i class="fas fa-caret-down"></i>
+            </button>
+            <ul class="dropdown__list">
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">PHP</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Java</a>
+              </li>
+              <li class="dropdown__item">
+                <button class="dropdown__link dropdown__button">
+                  Wordpress <i class="fas fa-caret-right"></i>
+                </button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__item">
+                    <a href="#" class="dropdown__link">Plugin</a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a href="#" class="dropdown__link">Theme</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Blogspot</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Tips & Trick</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="#" class="dropdown__link">Tools</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar__form form">
+          <div class="form__input-group input-group">
+            <input
+              type="search"
+              class="input-group__input input"
+              placeholder="Search article . . ."
+              required
+            />
+            <button
+              type="submit"
+              class="input-group__button button button_theme_outline-primary"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <main class="page__main main">
+      <div class="main__blog-post blog-post">
+        <div class="blog-post__inner">
+          <article class="article-card">
+            <img
+              src="./images/banner01.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >CSS</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >Make Animation in Website Without Javascript</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person01.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Shafy Gunawan</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner02.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >PHP</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >How to Create Online Shop With PHP</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person02.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Aisyah Putri</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner03.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Wordpress</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >15+ Best Web Design for Wordpress and Blogspot</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person03.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Bella Poarch</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner04.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Tips</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >5+ Habits Programmer in The World</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person04.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Ahmad Ikhsan</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner05.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Tips</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >Best Programming Language to Learn in 2021</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person01.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Robin Hood</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner06.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Tips</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >How to Build Structure Website Before Coding</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person02.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Raihanun</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner07.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Java</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >How To Debug a Java Program With CMD</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person03.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Dira Adira</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner01.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Tools</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >15+ Best Extensions For Web Developer</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person01.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Mas Shaleh</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="article-card">
+            <img
+              src="./images/banner02.png"
+              alt=""
+              class="article-card__image"
+            />
+            <div class="article-card__inner">
+              <a
+                href="#"
+                class="article-card__category button button_size_sm button_rounded_pill"
+                >Blog</a
+              >
+              <h2 class="article-card__title">
+                <a href="#" class="article-card__link"
+                  >Start Blog With Blogspot Platform</a
+                >
+              </h2>
+              <div class="article-card__author-group">
+                <img
+                  src="./images/person02.png"
+                  alt=""
+                  class="article-card__author-image"
+                />
+                <p class="article-card__author-name">
+                  <a href="#" class="article-card__link">Melly Amelia</a>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="blog-post__pagination">
+          <ul class="pagination">
+            <li class="pagination__item">
+              <a href="#" class="pagination__link pagination__link_active">1</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">2</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">3</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">
+                <i class="fas fa-angle-double-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <aside class="main__aside aside">
+        <div class="aside__section">
+          <h2 class="aside__title">Author</h2>
+          <article class="creator">
+            <img
+              src="./images/shafy-gunawan.jpg"
+              alt=""
+              class="creator__image"
+            />
+            <div class="creator__inner">
+              <h3 class="creator__name">Shafy Gunawan</h3>
+              <p class="creator__description">
+                An ordinary person who wants to keep learning and learning.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="aside__section">
+          <h2 class="aside__title">Popular Post</h2>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner03.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >30 Beautiful Google Font for Your Website</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner07.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >15 Best VS Code Extensions For Android Developer</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner02.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >How to Start a Blog: a Step-by-step Guide</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner01.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >Make Admin Dashboard With Angular</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner04.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >The Top Blogging Platforms in 2022</a
+              >
+            </h3>
+          </article>
+        </div>
+        <div class="aside__section">
+          <h2 class="aside__title">Latest Post</h2>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner05.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >Best Programming Language to Learn in 2021</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner01.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >15+ Best Extensions For Web Developer
+              </a>
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner07.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >How To Debug a Java Program With CMD</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner02.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >Start Blog With Blogspot Platform</a
+              >
+            </h3>
+          </article>
+          <article class="article-item aside__article-item">
+            <img
+              src="./images/banner03.png"
+              alt=""
+              class="article-item__image"
+            />
+            <h3 class="article-item__title">
+              <a href="#" class="article-item__link"
+                >15+ Best Web Design for Wordpress and Blogspot</a
+              >
+            </h3>
+          </article>
+        </div>
+        <div class="aside__section">
+          <h2 class="aside__title">Category</h2>
+          <div class="aside__category category">
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Design</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Tips</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Wordpress</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >CSS</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >PHP</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Web Development</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Blog</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Tools</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Android Development</a
+            >
+            <a
+              href="#"
+              class="category__button button button_size_sm button_rounded_pill"
+              >Java</a
+            >
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="page__footer footer">
+      <div class="footer__brand brand">
+        <h1 class="brand__logo logo">
+          <a href="#" class="logo__inner">
+            <img src="./images/logo.png" alt="" class="logo__image" />
+            GooBlog
+          </a>
+        </h1>
+        <p class="brand__description">
+          Web Blog with the first aim to share everything about programming like
+          android development, web development, etc.
+        </p>
+        <a href="#" class="brand__link">About</a>
+        <a href="#" class="brand__link">Privacy</a>
+        <a href="#" class="brand__link">Terms & Conditions</a>
+      </div>
+      <div class="footer__subscribe subscribe">
+        <p class="subscribe__description">
+          Sign up to be the first to hear about new posts delivered to your
+          inbox.
+        </p>
+        <form class="subscribe__form form">
+          <input
+            type="email"
+            class="form__input input"
+            placeholder="youremail@example.com"
+            required
+          />
+          <button type="submit" class="form__button button button_theme_yellow">
+            Subscribe
+          </button>
+        </form>
+      </div>
+      <div class="footer__sosmed sosmed">
+        <h3 class="sosmed__title">Find us on</h3>
+        <div class="sosmed__inner">
+          <a href="https://instagram.com/shafygunawan" class="sosmed__link"
+            >Instagram</a
+          >
+          <a href="#" class="sosmed__link">Twitter</a>
+          <a href="https://web.facebook.com/shafygunawan" class="sosmed__link"
+            >Facebook</a
+          >
+          <a href="#" class="sosmed__link">Telegram</a>
+        </div>
+      </div>
+      <hr class="footer__hr hr" />
+      <div class="footer__copyright copyright">
+        <p class="copyright__text">
+          Copyright &copy; 2021
+          <a
+            href="https://www.linkedin.com/in/shafygunawan/"
+            class="copyright__link"
+            >Shafy Gunawan</a
+          >. All rights reserved. GitHub:
+          <a
+            href="https://github.com/shafygunawan/gooblog"
+            class="copyright__link"
+            >GooBlog</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

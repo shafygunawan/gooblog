@@ -1,0 +1,11 @@
+/*!
+ * GooBlog (https://shafygunawan.github.io/gooblog)
+ * Copyright 2021 Shafy Gunawan (https://www.linkedin.com/in/shafygunawan/)
+ * Licensed under MIT (https://github.com/shafygunawan/gooblog/blob/main/LICENSE)
+ */
+@import url("./variables.css");
+@import url("./components.css");
+@import url("./common.css");
+@import url("./laptop.css") screen and (max-width: 1024px);
+@import url("./tablet.css") screen and (max-width: 768px);
+@import url("./mobile.css") screen and (max-width: 640px);

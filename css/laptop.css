@@ -1,0 +1,106 @@
+/*!
+ * GooBlog (https://shafygunawan.github.io/gooblog)
+ * Copyright 2021 Shafy Gunawan (https://www.linkedin.com/in/shafygunawan/)
+ * Licensed under MIT (https://github.com/shafygunawan/gooblog/blob/main/LICENSE)
+ */
+/* page
+====================================================================== */
+.page__main {
+  margin-block: 3rem;
+}
+
+/* navbar
+====================================================================== */
+.navbar__toggler {
+  display: inline-block;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar__inner {
+  flex-direction: column;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  padding-block: 1rem;
+  background-color: inherit;
+}
+
+.navbar__inner_hide {
+  display: none;
+}
+
+.navbar__list {
+  flex-direction: column;
+  padding-inline: 5%;
+}
+
+.navbar__item {
+  width: 100%;
+}
+
+.navbar__form {
+  width: 100%;
+  padding-inline: 5%;
+}
+
+/* main
+====================================================================== */
+.main {
+  gap: 2rem;
+}
+
+.main__blog-post {
+  flex-basis: 70%;
+}
+
+.main__aside {
+  flex-basis: 30%;
+}
+
+/* blog-post
+====================================================================== */
+.blog-post {
+  gap: 3rem;
+}
+
+.blog-post__inner {
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* aside
+====================================================================== */
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* dropdown
+====================================================================== */
+.dropdown__button {
+  justify-content: flex-start;
+}
+
+.dropdown__list {
+  position: static;
+  margin-left: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+.dropdown__link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown__link:hover,
+.dropdown__item .dropdown__button_active {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
